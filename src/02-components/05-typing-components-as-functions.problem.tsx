@@ -1,11 +1,12 @@
 import React from "react";
+// import { JSXElementTypes } from "../06-type
 
 interface Props {
   className: string;
 }
 
 /* @ts-expect-error */
-export const Button = (props: Props) => {
+export const Button = (props: Props): JSX.Element => {
   return {
     ohDear: "123",
   };
